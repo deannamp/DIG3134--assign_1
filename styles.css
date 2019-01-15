@@ -1,0 +1,45 @@
+@import "reset.css";
+
+/*nav*/
+.nav{
+  border: 2px black solid;
+  width:200px;
+  height: 323px;
+  background-color: white;
+}
+#top{
+  background-color: black;
+  color:white;
+  font:verdana;
+  font-size: 27pt;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+
+li{
+border-bottom: 1px solid black;
+}
+
+
+li a{
+  display:block;
+  color:black;
+  font: verdana;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+li a:hover{
+  background-color:black;
+  color:white;
+}
+
+/*body*/
+body{
+  background-image: url(img/road_and_mountain.jpg);
+  font-family: 'Times New Roman',Times,Serif;
+}
